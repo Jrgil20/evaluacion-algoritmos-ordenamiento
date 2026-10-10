@@ -10,6 +10,7 @@
 | **Tipo de Documento** | Informe de Evaluación y Modelado Estadístico |
 | **Muestra Analizada** | $N = 150$ mediciones empíricas ($k = 3$ algoritmos $\times$ 50 tamaños $n \in [100, 1000]$) |
 | **Estado del ANOVA** | **Hipótesis Nula Rechazada** ($F = 10.5241$, $p = 5.35 \times 10^{-5} < 0.001$) |
+| **Repositorio GitHub** | [Jrgil20/evaluacion-algoritmos-ordenamiento](https://github.com/Jrgil20/evaluacion-algoritmos-ordenamiento) |
 
 ---
 
@@ -75,7 +76,7 @@ A partir de los 50 registros por tratamiento contenidos en el conjunto de datos,
 | **Inserción** | 50 | 0.188915 | 0.003778 s | 0.002821 s | $7.958 \times 10^{-6}$ | 0.000944 | 0.010000 | ▰▰▰▰░░░░░░ 42.6% (**-57.4%**) |
 | **Total Global** | **150** | **0.852737** | **0.005685 s** | **0.006409 s** | **$4.108 \times 10^{-5}$** | **0.000280** | **0.030000** | — |
 
-![Comparativa de Medias ANOVA y Grupos Homogéneos](./grafico_comparativa_medias_anova.svg)
+![Comparativa de Medias ANOVA y Grupos Homogéneos](https://raw.githubusercontent.com/Jrgil20/evaluacion-algoritmos-ordenamiento/main/grafico_comparativa_medias_anova.svg)
 
 ---
 
@@ -159,7 +160,7 @@ $$
 | **Burbuja vs. Selección** | **0.004445 s** | 0.002860 s | $p < 0.01$ | **Significativo** | Selección reduce el tiempo en 50.2% frente a Burbuja. |
 | **Selección vs. Inserción** | **0.000638 s** | 0.002860 s | $p > 0.05$ | **No Significativo** | Rendimientos promedios equivalentes en el modelo global. |
 
-![Prueba Post-Hoc Tukey HSD: Diferencias Pareadas](./grafico_posthoc_tukey_differences.svg)
+![Prueba Post-Hoc Tukey HSD: Diferencias Pareadas](https://raw.githubusercontent.com/Jrgil20/evaluacion-algoritmos-ordenamiento/main/grafico_posthoc_tukey_differences.svg)
 
 > [!NOTE]
 > **Interpretación Post-Hoc:** El rechazo global de $H_0$ está traccionado por la ineficiencia estructural de **Burbuja**. Aunque Selección e Inserción comparten el mismo grupo homogéneo estadístico (*Grupo B*, $|\Delta| = 0.000638\text{ s} < 0.002860\text{ s}$), esta equivalencia es un artefacto de agregar muestras desde $n=100$ hasta $n=1000$ en un solo factor, como demuestra el análisis granular por tamaño.
@@ -170,7 +171,7 @@ $$
 
 El análisis individual sobre los 50 tamaños evaluados ($100 \le n \le 1000$) pone en evidencia la dinámica de escalabilidad de cada solución:
 
-![Curvas de Rendimiento Empírico T(n) vs n](./grafico_curvas_rendimiento.svg)
+![Curvas de Rendimiento Empírico T(n) vs n](https://raw.githubusercontent.com/Jrgil20/evaluacion-algoritmos-ordenamiento/main/grafico_curvas_rendimiento.svg)
 
 ---
 
