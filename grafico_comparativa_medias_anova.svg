@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 480" width="100%" height="100%" style="background:#ffffff; font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+<defs>
+  <linearGradient id="grad-b" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#f87171"/><stop offset="100%" stop-color="#dc2626"/></linearGradient>
+  <linearGradient id="grad-s" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#fbbf24"/><stop offset="100%" stop-color="#d97706"/></linearGradient>
+  <linearGradient id="grad-i" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#34d399"/><stop offset="100%" stop-color="#059669"/></linearGradient>
+  <filter id="card-sh" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="3" stdDeviation="4" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="880" height="480" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="440" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Comparativa de Medias Muestrales y Grupos Homogéneos (Tukey HSD)</text>
+<text x="440" y="52" text-anchor="middle" font-size="12" fill="#64748b">Medias de tiempo de ejecución con Intervalos de Confianza del 95% (n = 50 por grupo)</text>
+<line x1="90" y1="410.0" x2="620" y2="410.0" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="414.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.000 s</text>
+<line x1="90" y1="355.0" x2="620" y2="355.0" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="359.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.002 s</text>
+<line x1="90" y1="300.0" x2="620" y2="300.0" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="304.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.004 s</text>
+<line x1="90" y1="245.0" x2="620" y2="245.0" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="249.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.006 s</text>
+<line x1="90" y1="190.0" x2="620" y2="190.0" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="194.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.008 s</text>
+<line x1="90" y1="135.0" x2="620" y2="135.0" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="139.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.010 s</text>
+<line x1="90" y1="80.0" x2="620" y2="80.0" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="84.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.012 s</text>
+<line x1="90" y1="410" x2="620" y2="410" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="90" y1="80" x2="90" y2="410" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="24" y="245.0" text-anchor="middle" font-size="13" font-weight="600" fill="#334155" transform="rotate(-90 24 245.0)">Tiempo Medio (segundos)</text>
+<line x1="90" y1="253.7" x2="620" y2="253.7" stroke="#64748b" stroke-dasharray="5,4" stroke-width="1.5"/>
+<text x="615" y="247.7" text-anchor="end" font-size="10.5" font-weight="600" fill="#475569">Media Global = 0.005685 s</text>
+<rect x="135.8" y="166.3" width="85" height="243.7" rx="6" fill="url(#grad-b)" stroke="#ef4444" stroke-width="1" filter="url(#card-sh)"/>
+<line x1="178.3" y1="97.7" x2="178.3" y2="235.0" stroke="#1e293b" stroke-width="2"/>
+<line x1="168.3" y1="97.7" x2="188.3" y2="97.7" stroke="#1e293b" stroke-width="2"/>
+<line x1="168.3" y1="235.0" x2="188.3" y2="235.0" stroke="#1e293b" stroke-width="2"/>
+<text x="178.3" y="144.3" text-anchor="middle" font-size="12" font-weight="700" font-family="monospace" fill="#0f172a">0.008861 s</text>
+<rect x="146.3" y="73.7" width="64" height="20" rx="10" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+<text x="178.3" y="87.7" text-anchor="middle" font-size="10.5" font-weight="800" fill="#dc2626">Grupo A</text>
+<text x="178.3" y="432" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">Burbuja</text>
+<text x="178.3" y="448" text-anchor="middle" font-size="11" fill="#64748b">(n = 50)</text>
+<rect x="312.5" y="288.6" width="85" height="121.4" rx="6" fill="url(#grad-s)" stroke="#f59e0b" stroke-width="1" filter="url(#card-sh)"/>
+<line x1="355.0" y1="254.2" x2="355.0" y2="322.9" stroke="#1e293b" stroke-width="2"/>
+<line x1="345.0" y1="254.2" x2="365.0" y2="254.2" stroke="#1e293b" stroke-width="2"/>
+<line x1="345.0" y1="322.9" x2="365.0" y2="322.9" stroke="#1e293b" stroke-width="2"/>
+<text x="355.0" y="266.6" text-anchor="middle" font-size="12" font-weight="700" font-family="monospace" fill="#0f172a">0.004416 s</text>
+<rect x="323.0" y="230.2" width="64" height="20" rx="10" fill="#ffffff" stroke="#d97706" stroke-width="1.5"/>
+<text x="355.0" y="244.2" text-anchor="middle" font-size="10.5" font-weight="800" fill="#d97706">Grupo B</text>
+<text x="355.0" y="432" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">Selección</text>
+<text x="355.0" y="448" text-anchor="middle" font-size="11" fill="#64748b">(n = 50)</text>
+<rect x="489.2" y="306.1" width="85" height="103.9" rx="6" fill="url(#grad-i)" stroke="#10b981" stroke-width="1" filter="url(#card-sh)"/>
+<line x1="531.7" y1="284.8" x2="531.7" y2="327.4" stroke="#1e293b" stroke-width="2"/>
+<line x1="521.7" y1="284.8" x2="541.7" y2="284.8" stroke="#1e293b" stroke-width="2"/>
+<line x1="521.7" y1="327.4" x2="541.7" y2="327.4" stroke="#1e293b" stroke-width="2"/>
+<text x="531.7" y="284.1" text-anchor="middle" font-size="12" font-weight="700" font-family="monospace" fill="#0f172a">0.003778 s</text>
+<rect x="499.7" y="260.8" width="64" height="20" rx="10" fill="#ffffff" stroke="#059669" stroke-width="1.5"/>
+<text x="531.7" y="274.8" text-anchor="middle" font-size="10.5" font-weight="800" fill="#059669">Grupo B</text>
+<text x="531.7" y="432" text-anchor="middle" font-size="13" font-weight="700" fill="#1e293b">Inserción</text>
+<text x="531.7" y="448" text-anchor="middle" font-size="11" fill="#64748b">(n = 50)</text>
+<rect x="640" y="80" width="220" height="330" rx="10" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="750.0" y="105" text-anchor="middle" font-size="13" font-weight="700" fill="#0f172a">Resumen ANOVA y Tukey</text>
+<line x1="655" y1="115" x2="845" y2="115" stroke="#e2e8f0" stroke-width="1"/>
+<text x="654" y="140" font-size="11" fill="#64748b">Estadístico F:</text>
+<text x="846" y="140" text-anchor="end" font-size="11.5" font-weight="700" font-family="monospace" fill="#0f172a">10.5241</text>
+<text x="654" y="170" font-size="11" fill="#64748b">Valor p:</text>
+<text x="846" y="170" text-anchor="end" font-size="11.5" font-weight="700" font-family="monospace" fill="#dc2626">5.35 × 10⁻⁵</text>
+<text x="654" y="200" font-size="11" fill="#64748b">F Crítico (α=0.05):</text>
+<text x="846" y="200" text-anchor="end" font-size="11.5" font-weight="700" font-family="monospace" fill="#475569">3.0576</text>
+<text x="654" y="230" font-size="11" fill="#64748b">F Crítico (α=0.01):</text>
+<text x="846" y="230" text-anchor="end" font-size="11.5" font-weight="700" font-family="monospace" fill="#475569">4.7573</text>
+<text x="654" y="260" font-size="11" fill="#64748b">Umbral HSD 0.05:</text>
+<text x="846" y="260" text-anchor="end" font-size="11.5" font-weight="700" font-family="monospace" fill="#6d28d9">0.002860 s</text>
+<text x="654" y="290" font-size="11" fill="#64748b">Decisión H₀:</text>
+<text x="846" y="290" text-anchor="end" font-size="11.5" font-weight="700" font-family="monospace" fill="#dc2626">RECHAZADA</text>
+<text x="654" y="320" font-size="11" fill="#64748b">Nivel Confianza:</text>
+<text x="846" y="320" text-anchor="end" font-size="11.5" font-weight="700" font-family="monospace" fill="#059669">> 99.9%</text>
+<text x="654" y="350" font-size="11" fill="#64748b">Tamaño Efecto η²:</text>
+<text x="846" y="350" text-anchor="end" font-size="11.5" font-weight="700" font-family="monospace" fill="#2563eb">12.53%</text>
+</svg>

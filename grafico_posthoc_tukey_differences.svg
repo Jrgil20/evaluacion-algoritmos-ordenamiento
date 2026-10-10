@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="100%" height="100%" style="background:#ffffff; font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+<defs>
+  <filter id="sh3" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.06"/></filter>
+</defs>
+<rect width="880" height="360" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="440" y="32" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Prueba Post-Hoc Tukey HSD: Diferencias Absolutas entre Pares</text>
+<text x="440" y="50" text-anchor="middle" font-size="12" fill="#64748b">Contraste empírico frente al umbral crítico HSD (α = 0.05, valor crítico = 0.002860 s)</text>
+<line x1="210.0" y1="80" x2="210.0" y2="310" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="210.0" y="330" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">0.000 s</text>
+<line x1="300.8" y1="80" x2="300.8" y2="310" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="300.8" y="330" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">0.001 s</text>
+<line x1="391.5" y1="80" x2="391.5" y2="310" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="391.5" y="330" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">0.002 s</text>
+<line x1="482.3" y1="80" x2="482.3" y2="310" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="482.3" y="330" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">0.003 s</text>
+<line x1="573.1" y1="80" x2="573.1" y2="310" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="573.1" y="330" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">0.004 s</text>
+<line x1="663.8" y1="80" x2="663.8" y2="310" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="663.8" y="330" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">0.005 s</text>
+<line x1="754.6" y1="80" x2="754.6" y2="310" stroke="#f1f5f9" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="754.6" y="330" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">0.006 s</text>
+<line x1="210" y1="310" x2="800" y2="310" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="505.0" y="348" text-anchor="middle" font-size="12" font-weight="600" fill="#475569">Diferencia Absoluta de Medias |ΔX̄| (segundos)</text>
+<line x1="469.6" y1="70" x2="469.6" y2="315" stroke="#dc2626" stroke-dasharray="5,4" stroke-width="2"/>
+<rect x="414.6" y="52" width="110" height="22" rx="4" fill="#fef2f2" stroke="#f87171" stroke-width="1"/>
+<text x="469.6" y="66" text-anchor="middle" font-size="10.5" font-weight="700" fill="#dc2626">HSD = 0.00286 s</text>
+<text x="195" y="123.33333333333334" text-anchor="end" font-size="13" font-weight="700" fill="#1e293b">Burbuja vs. Inserción</text>
+<rect x="210" y="104.33333333333334" width="461.4" height="28" rx="5" fill="#f87171" opacity="0.85" stroke="#dc2626" stroke-width="1.5"/>
+<text x="681.4" y="122.33333333333334" font-size="12" font-weight="700" font-family="monospace" fill="#0f172a">0.005083 s</text>
+<rect x="776.4" y="107.33333333333334" width="160" height="22" rx="11" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+<text x="856.4" y="122.33333333333334" text-anchor="middle" font-size="10.5" font-weight="700" fill="#dc2626">p < 0.01 (Significativa)</text>
+<text x="195" y="200.00000000000003" text-anchor="end" font-size="13" font-weight="700" fill="#1e293b">Burbuja vs. Selección</text>
+<rect x="210" y="181.00000000000003" width="403.5" height="28" rx="5" fill="#f87171" opacity="0.85" stroke="#dc2626" stroke-width="1.5"/>
+<text x="623.5" y="199.00000000000003" font-size="12" font-weight="700" font-family="monospace" fill="#0f172a">0.004445 s</text>
+<rect x="718.5" y="184.00000000000003" width="160" height="22" rx="11" fill="#fef2f2" stroke="#fca5a5" stroke-width="1"/>
+<text x="798.5" y="199.00000000000003" text-anchor="middle" font-size="10.5" font-weight="700" fill="#dc2626">p < 0.01 (Significativa)</text>
+<text x="195" y="276.6666666666667" text-anchor="end" font-size="13" font-weight="700" fill="#1e293b">Selección vs. Inserción</text>
+<rect x="210" y="257.6666666666667" width="57.9" height="28" rx="5" fill="#34d399" opacity="0.85" stroke="#059669" stroke-width="1.5"/>
+<text x="277.9" y="275.6666666666667" font-size="12" font-weight="700" font-family="monospace" fill="#0f172a">0.000638 s</text>
+<rect x="372.9" y="260.6666666666667" width="160" height="22" rx="11" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="1"/>
+<text x="452.9" y="275.6666666666667" text-anchor="middle" font-size="10.5" font-weight="700" fill="#059669">p > 0.05 (No significativa)</text>
+</svg>

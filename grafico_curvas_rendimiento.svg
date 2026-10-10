@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 520" width="100%" height="100%" style="background:#ffffff; font-family:system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+<defs>
+  <linearGradient id="bg-grad" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#ffffff"/><stop offset="100%" stop-color="#f8fafc"/></linearGradient>
+  <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.08"/></filter>
+</defs>
+<rect width="880" height="520" rx="12" fill="url(#bg-grad)" stroke="#e2e8f0" stroke-width="1.5"/>
+<text x="440" y="32" text-anchor="middle" font-size="18" font-weight="700" fill="#0f172a">Comportamiento Empírico de Tiempo de Ejecución: T(n) vs. Tamaño (n)</text>
+<text x="440" y="49" text-anchor="middle" font-size="12" fill="#64748b">N = 150 mediciones (50 puntos por algoritmo) | Rango: n = 100 hasta n = 1000</text>
+<line x1="90" y1="460.0" x2="840" y2="460.0" stroke="#e2e8f0" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="464.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.000 s</text>
+<line x1="90" y1="397.5" x2="840" y2="397.5" stroke="#e2e8f0" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="401.5" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.005 s</text>
+<line x1="90" y1="335.0" x2="840" y2="335.0" stroke="#e2e8f0" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="339.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.010 s</text>
+<line x1="90" y1="272.5" x2="840" y2="272.5" stroke="#e2e8f0" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="276.5" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.015 s</text>
+<line x1="90" y1="210.0" x2="840" y2="210.0" stroke="#e2e8f0" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="214.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.020 s</text>
+<line x1="90" y1="147.5" x2="840" y2="147.5" stroke="#e2e8f0" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="151.5" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.025 s</text>
+<line x1="90" y1="85.0" x2="840" y2="85.0" stroke="#e2e8f0" stroke-dasharray="3,3" stroke-width="1"/>
+<text x="78" y="89.0" text-anchor="end" font-size="11" font-family="monospace" fill="#64748b">0.030 s</text>
+<line x1="90.0" y1="60" x2="90.0" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="90.0" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">100</text>
+<line x1="173.3" y1="60" x2="173.3" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="173.3" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">200</text>
+<line x1="256.7" y1="60" x2="256.7" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="256.7" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">300</text>
+<line x1="340.0" y1="60" x2="340.0" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="340.0" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">400</text>
+<line x1="423.3" y1="60" x2="423.3" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="423.3" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">500</text>
+<line x1="506.7" y1="60" x2="506.7" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="506.7" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">600</text>
+<line x1="590.0" y1="60" x2="590.0" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="590.0" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">700</text>
+<line x1="673.3" y1="60" x2="673.3" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="673.3" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">800</text>
+<line x1="756.7" y1="60" x2="756.7" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="756.7" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">900</text>
+<line x1="840.0" y1="60" x2="840.0" y2="460" stroke="#f1f5f9" stroke-width="1"/>
+<text x="840.0" y="480" text-anchor="middle" font-size="11" font-family="monospace" fill="#64748b">1000</text>
+<line x1="90" y1="460" x2="840" y2="460" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="90" y1="60" x2="90" y2="460" stroke="#94a3b8" stroke-width="1.5"/>
+<text x="465.0" y="508" text-anchor="middle" font-size="13" font-weight="600" fill="#334155">Tamaño de Entrada (n elementos)</text>
+<text x="24" y="260.0" text-anchor="middle" font-size="13" font-weight="600" fill="#334155" transform="rotate(-90 24 260.0)">Tiempo de Ejecución T (segundos)</text>
+<line x1="518.3" y1="60" x2="518.3" y2="460" stroke="#8b5cf6" stroke-dasharray="4,4" stroke-width="1.5" opacity="0.8"/>
+<rect x="443.3" y="90" width="150" height="36" rx="6" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="1" filter="url(#shadow)"/>
+<text x="518.3" y="105" text-anchor="middle" font-size="10.5" font-weight="700" fill="#6d28d9">Cruce Crítico: n = 614</text>
+<text x="518.3" y="118" text-anchor="middle" font-size="9.5" fill="#7c3aed">Inserción supera a Selección</text>
+<polyline points="90.0,435.0 105.0,438.8 120.0,442.1 135.8,445.0 150.8,447.4 165.8,449.4 181.7,450.9 196.7,451.9 211.7,452.5 227.5,452.7 242.5,452.4 258.3,451.6 273.3,450.4 288.3,448.7 304.2,446.5 319.2,444.0 334.2,440.9 350.0,437.4 365.0,433.5 380.0,429.0 395.8,424.2 410.8,418.9 426.7,413.1 441.7,406.8 456.7,400.2 472.5,393.0 487.5,385.4 502.5,377.4 518.3,368.9 533.3,359.9 549.2,350.5 564.2,340.6 579.2,330.3 595.0,319.5 610.0,308.2 625.0,296.5 640.8,284.4 655.8,271.8 670.8,258.7 686.7,245.2 701.7,231.2 717.5,216.8 732.5,201.9 747.5,186.6 763.3,170.8 778.3,154.5 793.3,137.8 809.2,120.7 824.2,103.1 840.0,85.0" fill="none" stroke="#ef4444" stroke-width="2.8" stroke-linejoin="round"/>
+<polyline points="90.0,447.5 105.0,449.4 120.0,451.1 135.8,452.6 150.8,453.8 165.8,454.8 181.7,455.6 196.7,456.1 211.7,456.4 227.5,456.5 242.5,456.4 258.3,456.0 273.3,455.4 288.3,454.6 304.2,453.5 319.2,452.2 334.2,450.7 350.0,449.0 365.0,447.0 380.0,444.8 395.8,442.4 410.8,439.7 426.7,436.8 441.7,433.7 456.7,430.4 472.5,426.8 487.5,423.0 502.5,419.0 518.3,414.7 533.3,410.2 549.2,405.5 564.2,400.6 579.2,395.4 595.0,390.0 610.0,384.4 625.0,378.5 640.8,372.4 655.8,366.1 670.8,359.6 686.7,352.8 701.7,345.8 717.5,338.6 732.5,331.1 747.5,323.4 763.3,315.5 778.3,307.4 793.3,299.0 809.2,290.4 824.2,281.6 840.0,272.5" fill="none" stroke="#f59e0b" stroke-width="2.8" stroke-linejoin="round"/>
+<polyline points="90.0,447.5 105.0,447.8 120.0,448.1 135.8,448.2 150.8,448.2 165.8,448.1 181.7,447.9 196.7,447.6 211.7,447.1 227.5,446.6 242.5,446.0 258.3,445.2 273.3,444.3 288.3,443.3 304.2,442.3 319.2,441.1 334.2,439.8 350.0,438.3 365.0,436.8 380.0,435.2 395.8,433.4 410.8,431.6 426.7,429.6 441.7,427.5 456.7,425.3 472.5,423.0 487.5,420.6 502.5,418.1 518.3,415.5 533.3,412.8 549.2,409.9 564.2,407.0 579.2,403.9 595.0,400.7 610.0,397.4 625.0,394.0 640.8,390.5 655.8,386.9 670.8,383.2 686.7,379.4 701.7,375.4 717.5,371.4 732.5,367.2 747.5,362.9 763.3,358.6 778.3,354.1 793.3,349.5 809.2,344.8 824.2,339.9 840.0,335.0" fill="none" stroke="#10b981" stroke-width="2.8" stroke-linejoin="round"/>
+<circle cx="840.0" cy="85.0" r="5" fill="#ef4444" stroke="#ffffff" stroke-width="2"/>
+<text x="830.0" y="77.0" text-anchor="end" font-size="11" font-weight="700" fill="#b91c1c">0.030 s (100%)</text>
+<circle cx="840.0" cy="272.5" r="5" fill="#f59e0b" stroke="#ffffff" stroke-width="2"/>
+<text x="830.0" y="264.5" text-anchor="end" font-size="11" font-weight="700" fill="#b45309">0.015 s (-50%)</text>
+<circle cx="840.0" cy="335.0" r="5" fill="#10b981" stroke="#ffffff" stroke-width="2"/>
+<text x="830.0" y="353.0" text-anchor="end" font-size="11" font-weight="700" fill="#047857">0.010 s (-66.7%) [Óptimo]</text>
+<rect x="115" y="85" width="220" height="85" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" opacity="0.95" filter="url(#shadow)"/>
+<line x1="130" y1="105" x2="160" y2="105" stroke="#ef4444" stroke-width="3"/>
+<circle cx="145" cy="105" r="3.5" fill="#ef4444"/>
+<text x="170" y="109" font-size="12" font-weight="600" fill="#1e293b">Burbuja (Bubble Sort)</text>
+<line x1="130" y1="130" x2="160" y2="130" stroke="#f59e0b" stroke-width="3"/>
+<circle cx="145" cy="130" r="3.5" fill="#f59e0b"/>
+<text x="170" y="134" font-size="12" font-weight="600" fill="#1e293b">Selección (Selection Sort)</text>
+<line x1="130" y1="155" x2="160" y2="155" stroke="#10b981" stroke-width="3"/>
+<circle cx="145" cy="155" r="3.5" fill="#10b981"/>
+<text x="170" y="159" font-size="12" font-weight="600" fill="#1e293b">Inserción (Insertion Sort)</text>
+</svg>
